@@ -18,5 +18,5 @@ Assignments\
 Print statements\
 Read statements\
 Compound statements\
-If statements and for/while Loops\
+If statements and for/while loops\
 Procedure declarations and invocations
