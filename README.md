@@ -8,28 +8,28 @@ The parser generates assembly code with messages for semantic errors, if any. It
 ## Usage
 Generate parser using Lex and Yacc.
 ```
-make
+$ make
 ```
 
 Compile source code using parser.
 ```
-./parser code.p
+$ ./parser code.p
 ```
 
 Convert to Java bytecode using Jasmin.
 ```
-java -jar jasmin-2.4/jasmin.jar code.j
+$ java -jar jasmin-2.4/jasmin.jar code.j
 ```
 
 Run the program.
 ```
-java code
+$ java code
 ```
 
 Remove temporary files.
 ```
-make clean
-rm code.j code.class
+$ make clean
+$ rm code.j code.class
 ```
 
 ## Language Features
