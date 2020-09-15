@@ -10,18 +10,22 @@ Generate parser using Lex and Yacc.
 ```
 make
 ```
+
 Compile source code using parser.
 ```
 ./parser code.p
 ```
+
 Convert to Java bytecode using Jasmin.
 ```
 java -jar jasmin-2.4/jasmin.jar code.j
 ```
+
 Run the program.
 ```
 java code
 ```
+
 Remove temporary files.
 ```
 make clean
