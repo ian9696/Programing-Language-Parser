@@ -3,7 +3,7 @@ A parser with syntax-directed translation scheme implemented using Lex and Yacc.
 
 The parser generates Java assembly code, which can then be translated to Java bytecode by Jasmin and run on Java Virtual Machine.
 
-Assembly code is generated along with warning messages for semantic errors, if any. It terminates immediately when a syntax error is found.
+Assembly code is generated along with warning messages for semantic errors, if any. The parser terminates immediately when a syntax error is found.
 
 ## Usage
 Generate parser using Lex and Yacc.
