@@ -5,7 +5,7 @@ The parser generates Java assembly code, which can then be translated to Java by
 
 Assembly code is generated along with warning messages for semantic errors, if any. The parser terminates immediately when a syntax error is found.
 
-## Usage
+## How to Run
 Generate parser using Lex and Yacc.
 ```
 $ make
