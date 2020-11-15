@@ -1,5 +1,5 @@
 ## Programming Language Parser
-A parser with syntax-directed translation scheme implemented using Lex and Yacc.
+Parser for programming language based on syntax-directed translation scheme, implemented using Lex and Yacc.
 
 The parser generates Java assembly code, which can then be translated to Java bytecode by [Jasmin](http://jasmin.sourceforge.net/) and run on Java Virtual Machine.
 
